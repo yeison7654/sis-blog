@@ -7,10 +7,16 @@
 </head>
 
 <body>
+  <nav>Bloc </nav>
    <div>
     <div>
-      logo
+      <p>Hola Ashly </p>
     </div>
-   </nav>
+   </div>
+   <form action="">
+    <div>
+      <label for="">Nombre</label>
+    </div>
+   </form>
 </body>
 </html>
