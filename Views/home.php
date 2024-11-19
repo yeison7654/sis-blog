@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Mini Framework - AbelOSh</title>
+  <title>Home</title>
 </head>
 
 <body>
@@ -16,6 +16,7 @@
    <form action="">
     <div>
       <label for="">Nombre</label>
+      hola mundo 
     </div>
    </form>
 </body>
