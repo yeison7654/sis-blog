@@ -7,7 +7,10 @@
 </head>
 
 <body>
-  <h1>tomen agua gente jsjs</h1>
-    <p>Mini Framework V1.0 - <a href="https://abelosh.com">www.abelosh.com</a></p>
+   <nav>
+    <div>
+      logo
+    </div>
+   </nav>
 </body>
 </html>
