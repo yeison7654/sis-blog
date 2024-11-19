@@ -7,7 +7,7 @@
 </head>
 
 <body>
-   <nav>
+   <div>
     <div>
       logo
     </div>
