@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Mini Framework - AbelOSh</title>
+  <title>Home</title>
 </head>
 
 <body>
