@@ -5,6 +5,7 @@
   <title>Mini Framework - AbelOSh</title>
 </head>
 <body>
+  <nav>Bloc </nav>
    <div>
     <div>
       <p>Hola Ashly </p>
