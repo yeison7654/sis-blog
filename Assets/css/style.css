@@ -1,3 +1,4 @@
+@import url("variables.css");
 *{
     margin: 0;
     padding: 0;
@@ -75,7 +76,7 @@ main{
 
 .caja-trasera button:hover{
     background: #fff;
-    color: #46A2FD;
+    color: var(--primary-color);
 }
 
 /*Formularios*/
