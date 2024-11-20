@@ -51,6 +51,6 @@
 
         </main>
 
-        <script src="Assets/js/functions_login.js"></script>
+        <script src="Assets/js/scrip"></script>
 </body>
 </html>
