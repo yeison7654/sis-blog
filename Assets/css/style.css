@@ -4,10 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 body{
-    background-image: url(../images/bg4.jpg);
+    background-image: url(../images/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -30,7 +31,7 @@ main{
 
 .caja-trasera{
     width: 100%;
-    padding: 10px 20px;
+    padding: 5px 15px;
     display: flex;
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
@@ -48,7 +49,7 @@ main{
 
 .caja-trasera div p,
 .caja-trasera button{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .caja-trasera div h3{
