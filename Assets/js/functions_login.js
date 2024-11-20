@@ -1,4 +1,4 @@
-$('.login-content [data-toggle="flip"]').click(function() {
+$('.contenedor-login-register [data-toggle="flip"]').click(function() {
 	$('.login-box').toggleClass('flipped');
 	return false;
 });
