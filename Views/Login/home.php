@@ -51,6 +51,6 @@
 
         </main>
 
-        <script src="../app-register/assets/js/scrip.js"></script>
+        <script src="<?= media() ?>/js/login.js"></script>
 </body>
 </html>
