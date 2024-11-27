@@ -1,5 +1,13 @@
+document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+        anchoPage();
+        iniciarSesion();
+        register();
+    }, 1000);
+});
+
 //Ejecutando funciones
-document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
+
 document.getElementById("btn__registrarse").addEventListener("click", register);
 window.addEventListener("resize", anchoPage);
 
@@ -27,10 +35,11 @@ function anchoPage(){
     }
 }
 
-anchoPage();
+
 
 
     function iniciarSesion(){
+        document.getElementById("btn__iniciar-sesion").addEventListener("click", iniciarSesion);
         if (window.innerWidth > 850){
             formulario_login.style.display = "block";
             contenedor_login_register.style.left = "10px";
