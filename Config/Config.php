@@ -1,5 +1,5 @@
 <?php 
-		const BASE_URL = "http://localhost:8012/sis-blog";
+		const BASE_URL = "http://localhost/sis-blog";
 
 	//Zona horaria
 	date_default_timezone_set('America/Guatemala');
