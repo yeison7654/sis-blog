@@ -8,7 +8,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="<?= media() ?>/css/login.css">
 </head>
 
@@ -35,18 +34,22 @@
                 <!--Login-->
                 <form action="" class="formulario-login">
                     <h2>Iniciar Sesión</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <label for="txtUserName">User</label>
+                    <input type="text" name="txtUserName" id="txtUserName">
+                    <label for="txtPassword">Password</label>
+                    <input type="password" name="txtPassword" id="txtPassword">
                     <button>Entrar</button>
                 </form>
 
                 <!--Register-->
                 <form action="php/registro_usuario.php" method="post" class="formulario-register">
                     <h2>Regístrarse</h2>
-                    <input type="text" placeholder="Nombre completo" name="nombre_completo" id="nombre_completo">
-                    <input type="text" placeholder="Correo Electronico" name="correo" id="correo">
-                    <input type="text" placeholder="Usuario" name="usuario" id="usuario">
-                    <input type="password" placeholder="Contraseña" name="contrasena" id="contrasena">
+                    <label for="txtUser">User</label>
+                    <input type="text" name="txtUser" id="txtUser">
+                     <label for="txtMail">E-Mail</label>
+                    <input type="email" name="txtMail" id="txtMail">
+                    <label for="txtPassword1">Password</label>
+                    <input type="password" name="txtPassword1" id="txtPassword1">
                     <button>Regístrarse</button>
                 </form>
             </div>

@@ -1,12 +1,12 @@
 <?php 
-		const BASE_URL = "http://localhost/sis-blog";
+		const BASE_URL = "http://localhost:8012/sis-blog";
 
 	//Zona horaria
 	date_default_timezone_set('America/Guatemala');
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
-	const DB_NAME = "bd_posts";
+	const DB_NAME = "bd-login";
 	const DB_USER = "root";
 	const DB_PASSWORD = "";
 	const DB_CHARSET = "utf8";
