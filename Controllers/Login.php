@@ -15,7 +15,7 @@ class Login extends Controllers
         $data['page_name'] = "Login";
         $data["page_filejs"] = array(
             "file1" => "Login/login.js", // Script para el login
-            "file2" => "libraries/validate.js" // Librería para validaciones si la tienes
+            "file2" => "libraries/login.js" // Librería para validaciones si la tienes
         );
         $this->views->getView($this, "login", $data);
     }
